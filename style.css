@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+#logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+body {
+    background-color: #17181f;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+}
+
+header > a {  
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav#menu {
+    display: flex;
+    position: relative;
+    
+}
+
+#menu > a {
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+
+
+section.bloc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(17, 16, 16);
+    padding: 12px;
+    text-align: center;
+    border-radius: 4px;
+    width: 32em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.container {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px 40px;
+    border-radius: 15px;
+    position: absolute;
+
+}
+
+input {
+    position: relative;
+    padding: 10px;
+    margin: 4px;
+    border: 3px solid rgba(0, 0, 0, 0.39);
+
+}
+
+div#res {
+    position: absolute;
+    top: 90%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 44%;
+    
+}
+
+footer > a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
